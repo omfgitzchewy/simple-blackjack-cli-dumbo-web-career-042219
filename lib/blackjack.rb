@@ -68,7 +68,6 @@ def runner
   number = initial_round
   hit?(number)
   display_card_total(number)
-  ß
   end_game(number)
 
 
