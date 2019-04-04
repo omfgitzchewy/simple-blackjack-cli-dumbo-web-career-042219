@@ -72,6 +72,6 @@ def runner
     hit?(number)
   end
   end_game(number)
-    
-  
+
+
 end
