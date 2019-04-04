@@ -66,11 +66,10 @@ def runner
   # code runner here
   welcome
   number = initial_round
-  final = 0
+
   until number > 21
     hit?(number)
     display_card_total(number)
-    final += number
   end
   end_game(final)
 
